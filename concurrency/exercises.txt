@@ -1,0 +1,31 @@
+1) Write an RSS reader that will concurrently fetch and parse all entries in the following rss feeds:
+
+feeds = \
+['http://rss.cnn.com/rss/cnn_topstories.rss',
+'http://rss.cnn.com/rss/cnn_world.rss',
+'http://rss.cnn.com/rss/cnn_us.rss',
+'http://rss.cnn.com/rss/si_topstories.rss',
+'http://rss.cnn.com/rss/money_latest.rss',
+'http://rss.cnn.com/rss/cnn_allpolitics.rss',
+'http://rss.cnn.com/rss/cnn_crime.rss',
+'http://rss.cnn.com/rss/cnn_tech.rss',
+'http://rss.cnn.com/rss/cnn_health.rss',
+'http://rss.cnn.com/rss/cnn_showbiz.rss',
+'http://rss.cnn.com/rss/cnn_travel.rss',
+'http://rss.cnn.com/rss/cnn_living.rss',
+'http://rss.cnn.com/rss/cnn_freevideo.rss',
+'http://rss.cnn.com/rss/cnn_studentnews.rss',
+'http://rss.cnn.com/rss/cnn_mostpopular.rss',
+'http://rss.cnn.com/rss/cnn_latest.rss',
+'http://rss.ireport.com/feeds/oncnn.rss',
+'http://rss.cnn.com/rss/cnn_behindthescenes.rss']
+
+It should roll them all up into array of dicts, wich each entry storing the following:
+
+published
+title
+summary
+link
+
+Printing only date and title in the results shall suffice. By the way, you probably want to use the feedparser library.
+

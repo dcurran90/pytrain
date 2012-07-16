@@ -1,0 +1,77 @@
+1) Suppose the cover price of a book is $24.95, but bookstores get a
+40% discount. Shipping costs $3 for the first copy and 75 cents for 
+each additional copy. Write an application to calculate the total 
+wholesale cost for 60 copies.
+
+
+2) If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15
+per mile), then 3 miles at tempo (7:12 per mile) and 1 mile at easy
+pace again, what time do I get home for breakfast?
+
+
+3) Write a function named right_justify that takes a string named s as
+a parameter and prints the string with enough leading spaces so that
+the last letter of the string is in column 70 of the display.
+
+>>> right_justify('allen')
+                                                                 allen
+
+
+4) Write an application that draws a grid like the following:
++ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - +
+|         |         |
+|         |         |
+|         |         |
+|         |         |
++ - - - - + - - - - +
+
+
+5) If you are given three sticks, you may or may not be able to
+arrange them in a triangle. For example, if one of the sticks is 12
+inches long and the other two are one inch long, it is clear that you
+will not be able to get the short sticks to meet in the middle. For
+any three lengths, there is a simple test to see if it is possible to
+form a triangle:
+
+If any of the three lengths is greater than the sum of the other two,
+then you cannot form a triangle. Otherwise, you can. (If the sum of
+two lengths equals the third, they form what is called a “degenerate”
+triangle.)
+
+Write a function named is_triangle that takes three integers as
+arguments, and that prints either “Yes” or “No,” depending on whether
+you can or cannot form a triangle from sticks with the given lengths.
+
+
+6) A palindrome is a word that is spelled the same backward and
+forward, like “noon” and “redivider”. Recursively, a word is a
+palindrome if the first and last letters are the same and the middle
+is a palindrome.
+
+Write 2 applications to calculate palindromes. One should check 
+recursively, and the other should compare using a reversed list.
+
+7) Write a function called most_frequent that takes a string and
+prints the letters in decreasing order of frequency. Find text samples
+from several different languages and see how letter frequency varies
+between languages. 
+
+
+These examples were taken and modified from 
+http://www.greenteapress.com/thinkpython/html/index.html
+
+Give that book a read. It's very good.
+
+For additional info:
+
+MIT course:
+http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008/
+
+google code university class:
+http://code.google.com/edu/languages/google-python-class/
+

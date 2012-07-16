@@ -1,0 +1,3 @@
+1) Take the excercise for concurrency and make the results persist to
+a database. Then pull the results and print out the day of the week
+that has the most articles published on it.
